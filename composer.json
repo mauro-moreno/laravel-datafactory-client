@@ -1,0 +1,23 @@
+{
+  "name": "mauro-moreno/laravel-datafactory-client",
+  "description": "Laravel wrapper for the DataFactory LA Client package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mauro Moreno",
+      "email": "moreno.mauro.emanuel@gmail.com"
+    }
+  ],
+  "require": {
+    "mauro-moreno/datafactory-client": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MauroMoreno\\LaravelDataFactory\\": "src"
+    }
+  },
+  "require-dev": {
+    "laravel/framework": "^5.3"
+  }
+}
